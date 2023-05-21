@@ -1,5 +1,4 @@
 // index.js
-
 // Import the DOM and querySelector functions
 const {
   DOM,
@@ -34,3 +33,4 @@ querySelector(".actions button").forEach((button) => {
 
 // Add an event listener to the video element
 video.addEventListener("load", playVideoOnLoad);
+
