@@ -3,16 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DexGPT</title>
+  <title>Dexter the Cat</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>DexGPT</h1>
+    <h1>Dexter the Cat</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="youtube.html">YouTube Gallery</a></li>
+        <li><a href="memes.html">Memes</a></li>
+        <li><a href="dexgpt.html">DexGPT</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
     <div class="container">
-      <h1>DexGPT</h1>
+      <h1>Dexter the Cat</h1>
       <div class="intro">
         <video loop muted>
           <source src="matrix.mp4" type="video/mp4">
@@ -20,15 +30,9 @@
         <img src="cat-hacker.jpg" alt="Cat Hacker">
       </div>
       <div class="actions">
-        <button onClick={() => {
-          window.location.href = "youtube.html";
-        }}>YouTube Gallery</button>
-        <button onClick={() => {
-          window.location.href = "dexgpt.html";
-        }}>DexGPT</button>
-        <button onClick={() => {
-          window.location.href = "memes.html";
-        }}>Memes</button>
+        <button onclick="window.location.href = 'youtube.html';">YouTube Gallery</button>
+        <button onclick="window.location.href = 'dexgpt.html';">DexGPT</button>
+        <button onclick="window.location.href = 'memes.html';">Memes</button>
       </div>
       <div class="disclaimer">
         <p>You do this at your own risk. If you are underage, you cannot do this and must leave the web page.</p>
